@@ -5,7 +5,14 @@ const sound = document.getElementById("sound");
 
 const btn = document.getElementById("search-btn");
 
-btn.addEventListener('click', () => {
-    let input = document.getElementById('input').value;
-    // console.log(input);
-})
+btn.addEventListener('click', async() => {
+    try {
+        let input = document.getElementById('input').value;
+        // console.log(input);
+        const response = await fetch(`${url}${input}`);
+        const data = await response.json();
+        console.log(data);
+    } catch (error) {
+        console.error('An error occurred:', error);
+    }
+});
