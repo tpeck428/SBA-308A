@@ -77,6 +77,25 @@
 
 }
 
+.result .details{
+    display: flex;
+    gap: 10px;
+    color: #A58D98;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+
+.definition{
+    color: #7E636F;
+}
+
+.example{
+    color: #7E636F;
+    font-style: italic;
+    border-left: 5px solid #55868C;
+    padding-left: 20px;
+    margin-top: 30px;
+}
 /* .btn {
     padding: 10px 20px;
     background-color: #EEC584;
