@@ -39,9 +39,43 @@
     outline: none;
     border-bottom: 3px solid #55868C;
     font-size: 16px;
-    
+
 }
 
+.search-box button{
+    padding: 5px 0px;
+    width: 25%;
+    background-color: #55868C;
+    outline: none;
+    border: none;
+    color: #CACAAA;
+    border-radius: 5px;
+
+}
+
+.result {
+    position: relative;
+}
+
+.result h3 {
+    font-size: 30px;
+    color: #503F46;
+}
+
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.result button {
+    background-color: transparent;
+    color: #55868C;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
 
 /* .btn {
     padding: 10px 20px;
