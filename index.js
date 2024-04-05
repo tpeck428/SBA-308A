@@ -8,7 +8,7 @@ const btn = document.getElementById("search-btn");
 btn.addEventListener('click', async() => {
     try {
         let input = document.getElementById('input').value;
-        // console.log(input);
+        console.log(input);
         const response = await fetch(`${url}${input}`);
         const data = await response.json();
         console.log(data);
@@ -16,3 +16,4 @@ btn.addEventListener('click', async() => {
         console.error('An error occurred:', error);
     }
 });
+
